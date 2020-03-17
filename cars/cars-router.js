@@ -36,5 +36,5 @@ router.post("/", async (req, res) => {
     res.status(500).json({ message: "Fatal error posting new car" });
   }
 });
-
+console.log("hello");
 module.exports = router;
